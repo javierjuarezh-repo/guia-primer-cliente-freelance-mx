@@ -36,11 +36,14 @@ Pide testimonio corto y 1 referido. Ahí nace el cliente 2.
 
 ---
 
+### Extracto 1 página (aún más corto)
+- Markdown: [free/extracto-1pagina-primer-cliente-mx.md](./free/extracto-1pagina-primer-cliente-mx.md)
+- HTML: [free/index.html](./free/index.html)
+
 ### ¿Quieres el plan completo día por día?
 Armé una **mini guía de 7 días** (checklist + 3 plantillas copy-paste + tabla de precios MXN) por **$20 MXN** vía Mercado Pago:
 
 - Landing: https://mm-guia-cobranza-mx.vercel.app
-- Mirror GitHub: https://javierjuarezh-repo.github.io/guia-primer-cliente-freelance-mx/
 - Pago directo: https://mpago.la/1hCHoz5
 
 Divulgación: soy el autor del recurso. Los tips de arriba son gratis; la guía es opcional.
