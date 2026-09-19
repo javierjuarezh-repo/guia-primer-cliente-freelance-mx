@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cobra tu primer cliente freelance en México en 7 días</title>
+  <meta name="description" content="Mini guía práctica: plan de 7 días, plantillas de WhatsApp y precios en MXN. Entrega digital inmediata tras el pago." />
+  <style>
+    :root {
+      --bg: #0f1419;
+      --card: #1a222d;
+      --text: #f2f4f7;
+      --muted: #a8b3c2;
+      --accent: #00b1ea;
+      --accent2: #00a650;
+      --border: #2a3544;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, sans-serif;
+      background: radial-gradient(1200px 600px at 10% -10%, #16324a 0%, var(--bg) 55%);
+      color: var(--text);
+      line-height: 1.55;
+      min-height: 100vh;
+    }
+    main {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 4rem;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #9ad8ff;
+      background: rgba(0, 177, 234, 0.12);
+      border: 1px solid rgba(0, 177, 234, 0.35);
+      border-radius: 999px;
+      padding: 0.25rem 0.7rem;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-size: clamp(1.6rem, 4vw, 2.1rem);
+      line-height: 1.2;
+      margin: 0 0 0.75rem;
+    }
+    .lead { color: var(--muted); margin: 0 0 1.5rem; font-size: 1.05rem; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 1.25rem 1.35rem;
+      margin: 1.25rem 0;
+    }
+    ul { margin: 0.5rem 0 0; padding-left: 1.15rem; color: var(--muted); }
+    li { margin: 0.35rem 0; }
+    .price {
+      display: flex;
+      align-items: baseline;
+      gap: 0.5rem;
+      margin: 1.25rem 0 0.75rem;
+    }
+    .price strong {
+      font-size: 2rem;
+      color: #fff;
+    }
+    .price span { color: var(--muted); font-size: 0.95rem; }
+    .cta {
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      background: linear-gradient(180deg, #00c853, var(--accent2));
+      color: #fff;
+      font-weight: 700;
+      font-size: 1.05rem;
+      padding: 0.95rem 1.2rem;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0, 166, 80, 0.25);
+    }
+    .cta:hover { filter: brightness(1.05); }
+    .note {
+      margin-top: 0.85rem;
+      font-size: 0.9rem;
+      color: var(--muted);
+      text-align: center;
+    }
+    .steps { counter-reset: step; }
+    .steps li {
+      list-style: none;
+      margin: 0.65rem 0;
+      padding-left: 0;
+      color: var(--text);
+    }
+    .steps li::before {
+      counter-increment: step;
+      content: counter(step) ".";
+      color: var(--accent);
+      font-weight: 700;
+      margin-right: 0.4rem;
+    }
+    footer {
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: #7d8a9a;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="badge">Producto digital · México</div>
+    <h1>Mini guía: cobra tu primer cliente freelance en México en 7 días</h1>
+    <p class="lead">Plan práctico día por día, 3 plantillas de WhatsApp/correo listas para copiar, y una tabla de precios en MXN. Sin curso eterno: acción concreta.</p>
+
+    <div class="card">
+      <strong>Qué incluye</strong>
+      <ul>
+        <li>Checklist de 7 días (oferta → prospectos → mensaje → cobro)</li>
+        <li>3 plantillas copy-paste (primer contacto, propuesta corta, anticipo/saldo)</li>
+        <li>Tabla de precios de ejemplo en pesos mexicanos</li>
+        <li>Tips locales: WhatsApp, SPEI y cómo hablar de factura/CFDI sin trabarte</li>
+      </ul>
+    </div>
+
+    <div class="price">
+      <strong>$20 MXN</strong>
+      <span>pago seguro con Mercado Pago (cerca de $1 USD)</span>
+    </div>
+
+    <a class="cta" href="https://mpago.la/1hCHoz5" rel="noopener" target="_blank">Pagar con Mercado Pago</a>
+    <p class="note">Al pagar, te llega el ZIP con PDF + HTML + Markdown. Si no lo recibes en minutos, responde a quien te compartió este link con tu comprobante.</p>
+
+    <div class="card">
+      <strong>Cómo funciona</strong>
+      <ol class="steps" style="margin:0.75rem 0 0;padding:0;">
+        <li>Toca el botón y paga en Mercado Pago.</li>
+        <li>Guarda tu comprobante.</li>
+        <li>Recibe el archivo digital (PDF/HTML/MD en un ZIP).</li>
+      </ol>
+    </div>
+
+    <footer>
+      Resultados no garantizados. Contenido educativo y de productividad. Hecho para freelancers en México.
+    </footer>
+  </main>
+</body>
+</html>
